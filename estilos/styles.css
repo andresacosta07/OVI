@@ -1,6 +1,10 @@
-body{
+* {
     margin: 0;
     padding: 0;
-background: url(../img/imagenIndex.PNG) no-repeat fixed center center;
+    border: 0;
+  }
 
+
+header{
+    background: #005883;
 }
