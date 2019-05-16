@@ -28,37 +28,39 @@ header #logo img{
 section #logoSeguridad img{
     
   width: 50%; /* tamaño logo*/
-  margin:0% auto;
+  margin:0px auto;
 	display:block;
+  
   
 }
 
 
 
 header div h2{
-  font-size: 35px;
+  font-size: 200%;
   color: white;
   font-family:  sans-serif;
+
   
 }
 header div h1{
-  font-size: 45px;
+  font-size: 250%;
   color: white;
   font-family:  sans-serif;
- 
-}
-header div h3{
-  font-size: 25px;
-  color: white;
-  font-family: sans-serif;
+
  
 }
 
+
 #div-titulo{
-  padding: 7% 0% 0% 0%;
+
+  padding: 7% 0% 7% 0%;
   float: left;
+  
    
 }
+
+
 
 .lecturas {
 
@@ -68,25 +70,18 @@ header div h3{
   text-align: justify;
   background: white;
   border-radius: 15px;
-  margin: 20% 1%;
-  position: absolute;
-    
+  margin: 15px 15px 50px 15px;
+  
 }
 
 .twiter {
 
   width: 22%;
   float: right;
-  
+  padding: 2% 1% 1% 1%;
   background: #F0B429;
   border-radius: 15px;
-  
-  position: absolute;
-  margin: 20% 75%;
-  padding: 1% 1%;
- 
- 
-
+  margin: 17px 15px 0px 0px;
     
 }
 
