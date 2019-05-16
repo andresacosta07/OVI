@@ -74,6 +74,32 @@ header div h1{
   
 }
 
+.introduccion {
+
+  width: 96%;
+  float: left;
+  padding: 2% 1% 1% 1%;
+  text-align: justify;
+  background: white;
+  border-radius: 15px;
+  margin: 1% 1%;
+  font-size: 150%;
+  
+}
+
+.conceptos {
+
+  width: 96%;
+  float: left;
+  padding: 2% 1% 1% 1%;
+  text-align: justify;
+  background: white;
+  border-radius: 15px;
+  margin: 1% 1%;
+  font-size: 150%;
+  
+}
+
 .twiter {
 
   width: 22%;
@@ -136,13 +162,22 @@ section h4{
   font-weight: 1000;
   color:#005883;
   text-align: center;
-;
+
+}
+
+section h5{
+  font-size: 200%;
+  font-family: sans-serif;
+  font-weight: 1000;
+  color:#005883;
+  text-align: center;
+  margin: 1% 0% 2% 0%;
 
 }
 
 .navegacion li a{
  background-color: #F0B429;
- font-family: sans-serif;
+
  color: white;
  text-decoration: none;
  display:inline-block;
@@ -181,7 +216,7 @@ nav ul li {
 nav {
   float: right;      /* flotar a la derecha la navecacion*/
   font-family: sans-serif;
-  font-weight: 540;
+  font-weight: 550;
   padding: 0% 0% 0% 0%;   
   margin: 1% 1% 0% 0%; /* margenes de la navegacion*/
   
