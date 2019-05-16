@@ -20,7 +20,7 @@
 header #logo img{
     
   float: left;  /* flotar el logo a la izquierda*/
-  width: 360px; /* tamaño logo*/
+  width: 24%; /* tamaño logo*/
   background: #005883;  
   padding: 1% 0% 0% 0%; /* distancia margen logo*/
 }
@@ -28,9 +28,8 @@ header #logo img{
 section #logoSeguridad img{
     
   width: 50%; /* tamaño logo*/
-  margin:0px auto;
+  margin:0% auto;
 	display:block;
-  
   
 }
 
@@ -69,18 +68,25 @@ header div h3{
   text-align: justify;
   background: white;
   border-radius: 15px;
-  margin: 15px 15px 50px 15px;
-  
+  margin: 20% 1%;
+  position: absolute;
+    
 }
 
 .twiter {
 
   width: 22%;
   float: right;
-  padding: 2% 1% 1% 1%;
+  
   background: #F0B429;
   border-radius: 15px;
-  margin: 17px 15px 0px 0px;
+  
+  position: absolute;
+  margin: 20% 75%;
+  padding: 1% 1%;
+ 
+ 
+
     
 }
 
