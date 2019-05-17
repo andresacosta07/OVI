@@ -12,115 +12,144 @@
 
  header{
    background: #005883;
-   padding: 1% 0% 0% 1%;
-   
+   padding: 1% 0% 0% 1%;  
  }
 
-
-header #logo img{
-    
+header #logo img{    
   float: left;  /* flotar el logo a la izquierda*/
   width: 24%; /* tamaño logo*/
   background: #005883;  
   padding: 1% 0% 0% 0%; /* distancia margen logo*/
 }
 
-section #logoSeguridad img{
-    
+section #logoSeguridad img{    
   width: 50%; /* tamaño logo*/
   margin:0px auto;
-	display:block;
-  
-  
+	display:block;    
 }
-
-
 
 header div h2{
+  font-size: 270%;
+  color: white;
+  font-family:  sans-serif;  
+}
+
+header div h1{
   font-size: 200%;
   color: white;
-  font-family:  sans-serif;
-
-  
+  font-family:  sans-serif; 
 }
-header div h1{
-  font-size: 250%;
-  color: white;
-  font-family:  sans-serif;
-
- 
-}
-
 
 #div-titulo{
-
   padding: 7% 0% 7% 0%;
-  float: left;
-  
-   
+  float: left;   
 }
 
-
-
 .lecturas {
-
   width: 70%;
   float: left;
   padding: 2% 1% 1% 1%;
   text-align: justify;
   background: white;
   border-radius: 15px;
-  margin: 15px 15px 50px 15px;
-  
+  margin: 15px 15px 50px 15px;  
 }
 
 .introduccion {
-
   width: 96%;
   float: left;
   padding: 2% 1% 1% 1%;
   text-align: justify;
   background: white;
   border-radius: 15px;
-  margin: 1% 1%;
-  font-size: 150%;
-  
+  margin: 1% 1% 4% 1%;
+  font-size: 140%;  
 }
 
 .conceptos {
-
   width: 96%;
   float: left;
   padding: 2% 1% 1% 1%;
   text-align: justify;
   background: white;
   border-radius: 15px;
-  margin: 1% 1%;
-  font-size: 150%;
-  
+  margin: 1% 1% 4% 1%;
+  font-size: 140%;  
 }
 
-.twiter {
+.recomendaciones {
+  width: 96%;
+  float: left;
+  padding: 2% 1% 1% 1%;
+  text-align: justify;
+  background: white;
+  border-radius: 15px;
+  margin: 1% 1% 4% 1%;
+  font-size: 140%;  
+}
 
+.recomendaciones h3{
+
+  color: #F0B429;
+  text-align: initial;
+  margin: 2% 0% 1% 0%;
+}
+
+.estandares {
+  width: 96%;
+  float: left;
+  padding: 2% 1% 1% 1%;
+  text-align: justify;
+  background: white;
+  border-radius: 15px;
+  margin: 1% 1% 4% 1%;
+  font-size: 140%;  
+}
+
+.estandares h3{
+
+  color: #F0B429;
+  text-align: initial;
+  margin: 2% 0% 1% 0%;
+}
+
+.impacto {
+  width: 96%;
+  float: left;
+  padding: 2% 1% 1% 1%;
+  text-align: justify;
+  background: white;
+  border-radius: 15px;
+  margin: 1% 1% 4% 1%;
+  font-size: 140%;  
+}
+
+.impacto h3{
+
+  color: #F0B429;
+  text-align: initial;
+  margin: 2% 0% 1% 0%;
+}
+
+
+
+
+
+.twiter {
   width: 22%;
   float: right;
   padding: 2% 1% 1% 1%;
   background: #F0B429;
   border-radius: 15px;
-  margin: 17px 15px 0px 0px;
-    
+  margin: 17px 15px 0px 0px;  
+ 
 }
 
 .contador {
-
   float: right;
   background: #F0B429;
-  margin: 3% 7% 1% 1%;
-  
+  margin: 3% 7% 1% 1%;  
 }
-
-
-
 
 footer {
   background:  #F0B429;
@@ -128,22 +157,22 @@ footer {
   bottom: 0;
   width: 100%;
   height: 40px;
-  color: white;
+  color: #005883;
+  opacity: 0.8;
 }
+
+
 
 #footerP{
   font-family: 'Franklin Gothic Medium';
   font-size: 105%;
   margin: 0.5% 1% 0% 1%;
-
 }
 
 section p{
-
   font-size: 125%;
   font-family: sans-serif;
   color: #34495e;
-
 }
 
 section h3{
@@ -153,7 +182,6 @@ section h3{
   color:#F0B429;
   text-align: center;
   margin: 1% 0% 3% 0%;
-
 }
 
 section h4{
@@ -162,30 +190,28 @@ section h4{
   font-weight: 1000;
   color:#005883;
   text-align: center;
-
 }
 
 section h5{
-  font-size: 200%;
+  font-size: 180%;
   font-family: sans-serif;
   font-weight: 1000;
   color:#005883;
   text-align: center;
   margin: 1% 0% 2% 0%;
-
 }
 
 .navegacion li a{
- background-color: #F0B429;
-
- color: white;
- text-decoration: none;
- display:inline-block;
- border-radius: 20px;
- padding: 10px 15px;
- text-align: center;
+  background-color: #F0B429;
+  color: white;
+  text-decoration: none;
+  display:inline-block;
+  border-radius: 20px;
+  padding: 10px 15px;
+  text-align: center;
 
 }
+
 .navegacion{
   float: right;
 }
@@ -200,15 +226,13 @@ ul,ol{
 
 .navegacion li ul{
   display: none;
-  position: absolute;
- 
+  position: absolute; 
 }
 
 nav ul li {
- 
-  display: inline-block;  /* navecion en linea*/
-    
+  display: inline-block;  /* navecion en linea*/    
 }
+
 .navegacion li:hover>ul{
   display: block;
 }
@@ -218,19 +242,36 @@ nav {
   font-family: sans-serif;
   font-weight: 550;
   padding: 0% 0% 0% 0%;   
-  margin: 1% 1% 0% 0%; /* margenes de la navegacion*/
-  
+  margin: 1% 1% 0% 0%; /* margenes de la navegacion*/  
 }
 
 nav ul li ul li{
   display: block;
   margin: 5px;
+}
+
+table{
+  width: 100%;
+  text-align: center;
+  background: white;
+}
+th,td{
+  padding:10px;
+  font-family: sans-serif;
+}
+thead{
+  background: #F0B429;
+  border-bottom: solid 5px  #55efc4;
+  color: white;
   
+}
+tr:nth-child(even){
+  background-color: #f6e58d;
+}
 
+tr:hover td{
+  background-color: #74b9ff;
   
-
- 
-
 }
 
 
