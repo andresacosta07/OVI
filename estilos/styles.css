@@ -28,6 +28,16 @@ section #logoSeguridad img{
 	display:block;    
 }
 
+section #logoAutor img{    
+  width: 30%; /* tamaño logo*/
+  margin:0px auto;
+  display:block;    
+  background: #F0B429;
+  padding: 1% 1% 1% 1%;
+  border-radius: 15px;
+
+}
+
 header div h2{
   font-size: 270%;
   color: white;
@@ -53,6 +63,7 @@ header div h1{
   background: white;
   border-radius: 15px;
   margin: 15px 15px 50px 15px;  
+  font-size: 130%;  
 }
 
 .introduccion {
@@ -123,6 +134,35 @@ header div h1{
   margin: 1% 1% 4% 1%;
   font-size: 140%;  
 }
+
+
+.multimedia {
+  width: 96%;
+  float: left;
+  padding: 2% 1% 1% 1%;
+  text-align: justify;
+  background: white;
+  border-radius: 15px;
+  margin: 1% 1% 4% 1%;
+  font-size: 140%;  
+}
+
+.autor {
+  width: 96%;
+  float: left;
+  padding: 2% 1% 1% 1%;
+  text-align: justify;
+  background: white;
+  border-radius: 15px;
+  margin: 1% 1% 4% 1%;
+  font-size: 105%;  
+}
+
+.autor h3{
+  font-size: 250%;
+  margin: 0 auto;
+}
+
 
 .impacto h3{
 
@@ -275,5 +315,20 @@ tr:hover td{
 }
 
 
+.youtobe1{
+  margin:0px auto;
+  display:block; 
+  margin: 7% 1% 4% 1%;
+  text-align: center;
+  font-size: 70%;
+}
+
+.educaplay{
+  margin:0px auto;
+  display:block; 
+  margin: 7% 1% 4% 1%;
+  text-align: center;
+  font-size: 70%;
+}
 
 
