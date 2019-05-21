@@ -1,58 +1,109 @@
 * {
-    margin: 0;
-    padding: 0;   /* estilos desde Cero*/
-    border: 0;
-  }
+  margin: 0;
+  padding: 0; /* estilos desde Cero*/
+  border: 0;
+}
 
- body{
+@font-face {
+  font-family: 'angsana_newregular';
+  src: url('fuentes/angsa-webfont.woff2') format('woff2'),
+       url('fuentes/angsa-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body {
   background: #005883;
-  font-family: sans-serif;
+  font-family: 'angsana_newregular';
   margin: 0 auto;
- }
+}
 
- header{
-   background: #005883;
-   padding: 1% 0% 0% 1%;  
- }
+header {
+  background: #005883;
+  padding: 1% 0% 0% 1%;
+}
 
-header #logo img{    
-  float: left;  /* flotar el logo a la izquierda*/
-  width: 24%; /* tamaño logo*/
-  background: #005883;  
+header #logo img {
+  float: left; /* flotar el logo a la izquierda*/
+  width: 23%; /* tamaño logo*/
+  background: #005883;
   padding: 1% 0% 0% 0%; /* distancia margen logo*/
 }
 
-section #logoSeguridad img{    
+section #logoSeguridad img {
   width: 50%; /* tamaño logo*/
-  margin:0px auto;
-	display:block;    
+  margin: 0px auto;
+  display: block;
 }
 
-section #logoAutor img{    
+section #logoAutor img {
   width: 30%; /* tamaño logo*/
-  margin:0px auto;
-  display:block;    
-  background: #F0B429;
+  margin: 0px auto;
+  display: block;
+  background: #f0b429;
   padding: 1% 1% 1% 1%;
   border-radius: 15px;
-
 }
 
-header div h2{
+section #logoInicio img {
+  width: 60%; /* tamaño logo*/
+  margin: 0px auto;
+  display: block;
+}
+
+section #objetivos img {
+  width: 30%; /* tamaño logo*/
+  margin: 0px auto;
+  display: block;
+}
+
+section #introduccion img {
+  width: 70%; /* tamaño logo*/
+  margin: 0px auto;
+  display: block;
+}
+
+section #clave img {
+  width: 20%; /* tamaño logo*/
+  margin: 0px auto;
+  display: block;
+}
+
+section #pasos img {
+  width: 25%; /* tamaño logo*/
+  margin: 0px auto;
+  display: block;
+}
+
+section #leyes img {
+  width: 25%; /* tamaño logo*/
+  margin: 0px auto;
+  display: block;
+}
+
+section #multimedia img {
+  width: 50%; /* tamaño logo*/
+  margin: 0px auto;
+  display: block;
+}
+
+header div h2 {
   font-size: 270%;
   color: white;
-  font-family:  sans-serif;  
+  font-family: 'angsana_newregular';
 }
 
-header div h1{
+header div h1 {
   font-size: 200%;
   color: white;
-  font-family:  sans-serif; 
+  font-family: 'angsana_newregular';
 }
 
-#div-titulo{
+#div-titulo {
   padding: 7% 0% 7% 0%;
-  float: left;   
+  float: left;
 }
 
 .lecturas {
@@ -62,8 +113,8 @@ header div h1{
   text-align: justify;
   background: white;
   border-radius: 15px;
-  margin: 15px 15px 50px 15px;  
-  font-size: 130%;  
+  margin: 15px 15px 50px 15px;
+  font-size: 130%;
 }
 
 .introduccion {
@@ -74,7 +125,7 @@ header div h1{
   background: white;
   border-radius: 15px;
   margin: 1% 1% 4% 1%;
-  font-size: 140%;  
+  font-size: 140%;
 }
 
 .conceptos {
@@ -85,7 +136,7 @@ header div h1{
   background: white;
   border-radius: 15px;
   margin: 1% 1% 4% 1%;
-  font-size: 140%;  
+  font-size: 140%;
 }
 
 .recomendaciones {
@@ -96,12 +147,11 @@ header div h1{
   background: white;
   border-radius: 15px;
   margin: 1% 1% 4% 1%;
-  font-size: 140%;  
+  font-size: 140%;
 }
 
-.recomendaciones h3{
-
-  color: #F0B429;
+.recomendaciones h3 {
+  color: #f0b429;
   text-align: initial;
   margin: 2% 0% 1% 0%;
 }
@@ -114,12 +164,11 @@ header div h1{
   background: white;
   border-radius: 15px;
   margin: 1% 1% 4% 1%;
-  font-size: 140%;  
+  font-size: 140%;
 }
 
-.estandares h3{
-
-  color: #F0B429;
+.estandares h3 {
+  color: #f0b429;
   text-align: initial;
   margin: 2% 0% 1% 0%;
 }
@@ -132,9 +181,8 @@ header div h1{
   background: white;
   border-radius: 15px;
   margin: 1% 1% 4% 1%;
-  font-size: 140%;  
+  font-size: 140%;
 }
-
 
 .multimedia {
   width: 96%;
@@ -143,8 +191,8 @@ header div h1{
   text-align: justify;
   background: white;
   border-radius: 15px;
-  margin: 1% 1% 4% 1%;
-  font-size: 140%;  
+  margin: 1% 1% 3% 1%;
+  font-size: 140%;
 }
 
 .autor {
@@ -155,44 +203,37 @@ header div h1{
   background: white;
   border-radius: 15px;
   margin: 1% 1% 4% 1%;
-  font-size: 105%;  
+  font-size: 105%;
 }
 
-.autor h3{
+.autor h3 {
   font-size: 250%;
   margin: 0 auto;
 }
 
-
-.impacto h3{
-
-  color: #F0B429;
+.impacto h3 {
+  color: #f0b429;
   text-align: initial;
   margin: 2% 0% 1% 0%;
 }
-
-
-
-
 
 .twiter {
   width: 22%;
   float: right;
   padding: 2% 1% 1% 1%;
-  background: #F0B429;
+  background: #f0b429;
   border-radius: 15px;
-  margin: 17px 15px 0px 0px;  
- 
+  margin: 17px 15px 0px 0px;
 }
 
 .contador {
   float: right;
-  background: #F0B429;
-  margin: 3% 7% 1% 1%;  
+  background: #f0b429;
+  margin: 3% 7% 1% 1%;
 }
 
 footer {
-  background:  #F0B429;
+  background: #f0b429;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -201,134 +242,143 @@ footer {
   opacity: 0.8;
 }
 
-
-
-#footerP{
-  font-family: 'Franklin Gothic Medium';
+#footerP {
+  font-family: 'Franklin Gothic Heavy';
   font-size: 105%;
   margin: 0.5% 1% 0% 1%;
 }
 
-section p{
-  font-size: 125%;
-  font-family: sans-serif;
+section p {
+  font-size: 120%;
+  font-family: 'Franklin Gothic book';
   color: #34495e;
 }
 
-section h3{
+section h3 {
   font-size: 130%;
-  font-family: sans-serif;
+  font-family: 'angsana_newregular';
   font-weight: 1000;
-  color:#F0B429;
+  color: #f0b429;
   text-align: center;
   margin: 1% 0% 3% 0%;
 }
 
-section h4{
+section h4 {
   font-size: 150%;
-  font-family: sans-serif;
+  font-family: 'angsana_newregular';
   font-weight: 1000;
-  color:#005883;
+  color: #005883;
   text-align: center;
 }
 
-section h5{
+section h5 {
   font-size: 180%;
-  font-family: sans-serif;
+  font-family: 'angsana_newregular';
   font-weight: 1000;
-  color:#005883;
+  color: #005883;
   text-align: center;
   margin: 1% 0% 2% 0%;
 }
 
-.navegacion li a{
-  background-color: #F0B429;
+.navegacion li a {
+  background-color: #f0b429;
   color: white;
   text-decoration: none;
-  display:inline-block;
+  display: inline-block;
   border-radius: 20px;
   padding: 10px 15px;
   text-align: center;
-
 }
 
-.navegacion{
+.navegacion {
   float: right;
 }
 
-.navegacion li a:hover{
+.navegacion li a:hover {
   background-color: #005883;
 }
 
-ul,ol{
+ul,
+ol {
   list-style: none;
 }
 
-.navegacion li ul{
+.navegacion li ul {
   display: none;
-  position: absolute; 
+  position: absolute;
 }
 
 nav ul li {
-  display: inline-block;  /* navecion en linea*/    
+  display: inline-block; /* navecion en linea*/
 }
 
-.navegacion li:hover>ul{
+.navegacion li:hover > ul {
   display: block;
 }
 
 nav {
-  float: right;      /* flotar a la derecha la navecacion*/
-  font-family: sans-serif;
+  float: right; /* flotar a la derecha la navecacion*/
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 550;
-  padding: 0% 0% 0% 0%;   
-  margin: 1% 1% 0% 0%; /* margenes de la navegacion*/  
+  padding: 0% 0% 0% 0%;
+  margin: 1% 1% 0% 0%; /* margenes de la navegacion*/
 }
 
-nav ul li ul li{
+nav ul li ul li {
   display: block;
   margin: 5px;
 }
 
-table{
+table {
   width: 100%;
   text-align: center;
   background: white;
 }
-th,td{
-  padding:10px;
-  font-family: sans-serif;
+th,
+td {
+  padding: 10px;
+  font-family: 'angsana_newregular';
 }
-thead{
-  background: #F0B429;
-  border-bottom: solid 5px  #55efc4;
+thead {
+  background: #f0b429;
+  border-bottom: solid 5px #55efc4;
   color: white;
-  
 }
-tr:nth-child(even){
+tr:nth-child(even) {
   background-color: #f6e58d;
 }
 
-tr:hover td{
+tr:hover td {
   background-color: #74b9ff;
+}
+
+.youtobe1 {
+  margin: 0px auto;
+  display: block;
+  margin: 3% 1% 4% 1%;
+  text-align: center;
+  font-size: 70%;
+}
+
+.educaplay {
+  display: block;
+  text-align: center;
+  font-size: 70%;
   
 }
 
-
-.youtobe1{
-  margin:0px auto;
-  display:block; 
-  margin: 7% 1% 4% 1%;
+#citar {
+  margin: 0px auto;
+  display: block;
+  margin: 0% 0% 0% 0%;
   text-align: center;
-  font-size: 70%;
+  font-size: 55%;
 }
 
-.educaplay{
-  margin:0px auto;
-  display:block; 
-  margin: 7% 1% 4% 1%;
+#visita{
   text-align: center;
-  font-size: 70%;
+  font-family: 'angsana_newregular';
+  color: #005883;
+  font-size: 140%;
+  
 }
-
-
